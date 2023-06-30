@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+#maincontainer {
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    width: 700px;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+#topcon, #bottomcon {
+    height: 50px;
+    width: 700px;
+}
+
+#middleconcon {
+    display: flex;
+}
+
+#leftcon, #rightcon {
+    width: 50px;
+    height: 600px;
+}
+
+#contentcontainer {
+    height : 600px;
+    width: 600px;
+    background-color: white;
+}
+
+div {
+    background-color: rgb(212, 6, 6);
+}
