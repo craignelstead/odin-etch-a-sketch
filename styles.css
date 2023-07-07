@@ -3,6 +3,7 @@ body {
     align-items: center;
     justify-content: center;
     margin: 20px;
+    font-family:'Courier New', Courier, monospace;
 }
 
 #maincontainer {
@@ -19,6 +20,25 @@ body {
     width: 700px;
 }
 
+#bottomcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: white;
+}
+
+#bottomcon button {
+    height: 40px;
+    width: 90px;
+    font-size: 6;
+}
+
+#inputgridnum {
+    height: 20px;
+    width: 40px;
+}
+
 #middleconcon {
     display: flex;
 }
@@ -29,11 +49,29 @@ body {
 }
 
 #contentcontainer {
-    height : 600px;
+    height: 600px;
     width: 600px;
     background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-basis: 100%;
 }
 
-div {
+.griddiv {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    height: 100%;
+}
+
+.rowdiv {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    background-color: white;
+    align-items: stretch;
+}
+
+.etchborder {
     background-color: rgb(212, 6, 6);
 }
