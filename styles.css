@@ -18,9 +18,6 @@ body {
 #topcon, #bottomcon {
     height: 50px;
     width: 700px;
-}
-
-#bottomcon {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -62,6 +59,7 @@ body {
     padding: 0;
     border: 0;
     height: 100%;
+    /*outline:1px rgb(250,250,250) solid;*/
 }
 
 .rowdiv {
@@ -74,4 +72,9 @@ body {
 
 .etchborder {
     background-color: rgb(212, 6, 6);
+}
+
+h1 {
+    font-style: italic;
+    text-shadow: 2px 2px 1px black;
 }
